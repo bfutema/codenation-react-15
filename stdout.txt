@@ -1,0 +1,13 @@
+
+> instadev@0.1.0 submit C:\Users\bruno\codenation\react-15
+> react-scripts test src/__tests__/submit.test.js --reporters=default --reporters=jest-junit "--watchAll=false"
+
+  console.error node_modules/prop-types/checkPropTypes.js:20
+    Warning: Failed prop type: You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+        in input (at UserForm.jsx:29)
+        in div (at UserForm.jsx:27)
+        in div (at UserForm.jsx:26)
+        in section (at UserForm.jsx:25)
+        in UserForm (at submit.test.js:163)
+        in Router (at submit.test.js:162)
+
